@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    justify-content: flex-start;
+    padding-right: 4rem;
+    align-items: center;
+    background-color: purple;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-inline: 70px;
+  }
+  
+  .link:hover {
+    opacity: 0.7;
+  }
+  
+  .active-navlink {
+    color: #8bd674;
+  }
